@@ -1,11 +1,11 @@
-REM Žg—p•û–@o—Í
+REM ä½¿ç”¨æ–¹æ³•å‡ºåŠ›
 timeout /? > timeout.txt
 
-REM 10 •b’âŽ~
+REM 10 ç§’åœæ­¢
 timeout /T 10
 
-REM 10 •b’âŽ~
+REM 10 ç§’åœæ­¢
 powershell sleep -m 10000
 
-REM 10 •b’âŽ~
+REM 10 ç§’åœæ­¢
 echo wscript.sleep(10000) > sleep.vbs & cscript sleep.vbs
